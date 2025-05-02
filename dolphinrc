@@ -1,0 +1,26 @@
+[CompactMode]
+UseSystemFont=false
+ViewFont=InputSerifIta Nerd Font,9,-1,5,300,0,0,0,0,0,0,0,0,0,0,1,Light
+
+[DetailsMode]
+UseSystemFont=false
+ViewFont=InputSerifIta Nerd Font,9,-1,5,300,0,0,0,0,0,0,0,0,0,0,1,Light
+
+[General]
+Version=202
+ViewPropsTimestamp=2025,4,28,22,29,49.567
+
+[IconsMode]
+IconSize=22
+UseSystemFont=false
+ViewFont=InputSerifCompressed Nerd Font,9,-1,5,300,0,0,0,0,0,0,0,0,0,0,1,Light
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail,gdk-pixbuf-thumbnailer
