@@ -23,3 +23,4 @@ waybar 0.14.0-1
 woff2-font-awesome 7.0.0-4
 wofi 1.5.1-1
 xf86-video-amdgpu 25.0.0-1
+rtkit
