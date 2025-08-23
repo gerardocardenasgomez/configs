@@ -5,10 +5,10 @@
   "modules-right": ["network", "pulseaudio", "clock"],
   "clock": {
     "format": "<span foreground='#f5c2e7'>   </span>{:%a %d %H:%M}",
-    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
   },
   "network": {
-    "interface": "enp1s0",
+    "interface": "enp3s0",
     //"format-wifi": "<span size='13000' foreground='#f5e0dc'>  </span>{essid}",
     "format-ethernet": "<span size='13000' foreground='#f5e0dc'>  </span> {ifname} xu {bandwidthUpBytes} xd {bandwidthDownBytes}",
     "format-linked": "{ifname} (No IP) ",
@@ -16,11 +16,11 @@
     //"tooltip-format-wifi": "Signal Strenght: {signalStrength}%"
   },
   "pulseaudio": {
-      "format": "{icon}  {volume}%",
-      "format-muted": "",
-      "format-icons": {
-          "default": ["", "", " "]
-      },
-      "on-click": "pavucontrol"
-  }
+    "format": "{icon}  {volume}%",
+    "format-muted": "",
+    "format-icons": {
+      "default": ["", "", " "],
+    },
+    "on-click": "pavucontrol",
+  },
 }
