@@ -890,6 +890,10 @@ require('lazy').setup({
   },
 
   {
+    'tpope/vim-abolish',
+  },
+
+  {
     'hrsh7th/cmp-cmdline',
     dependencies = { 'hrsh7th/nvim-cmp' },
     config = function()
