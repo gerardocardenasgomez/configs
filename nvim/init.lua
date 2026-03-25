@@ -1104,6 +1104,12 @@ end)
 
 local capabilities = require('blink.cmp').get_lsp_capabilities()
 
+vim.keymap.set('n', '<C-o>', function()
+  vim.cmd 'write'
+  local file = vim.fn.expand '%:p'
+  vim.cmd('split | terminal odin run ' .. file .. ' -file')
+end, { desc = 'Odin run current file' })
+
 require('lspconfig').ts_ls.setup {
   capabilities = capabilities,
   settings = {
