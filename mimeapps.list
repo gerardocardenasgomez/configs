@@ -9,6 +9,7 @@ application/x-extension-shtml=userapp-Zen-W6GPB3.desktop
 application/xhtml+xml=userapp-Zen-W6GPB3.desktop
 application/x-extension-xhtml=userapp-Zen-W6GPB3.desktop
 application/x-extension-xht=userapp-Zen-W6GPB3.desktop
+x-scheme-handler/discord=vesktop.desktop
 
 [Added Associations]
 x-scheme-handler/http=userapp-Zen-W6GPB3.desktop;
