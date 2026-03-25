@@ -47,6 +47,7 @@ vim.api.nvim_create_autocmd('FileType', {
     'php',
     'ruby',
     'hcl',
+    'sh',
   },
   callback = function()
     vim.opt.shiftwidth = 2
