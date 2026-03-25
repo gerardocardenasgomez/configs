@@ -1074,7 +1074,6 @@ harpoon:setup()
 -- end, { desc = 'Open harpoon window' })
 
 vim.keymap.set('n', '<leader>w', function()
-  print 'test'
   harpoon:list():add()
 end)
 vim.keymap.set('n', '<C-w>', function()
