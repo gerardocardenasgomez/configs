@@ -1129,5 +1129,6 @@ require 'custom.vimsettings'
 require('custom.notervim').setup()
 require('custom.repl').setup()
 require 'custom.autocmd'
+require 'custom.vim-runs'
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
